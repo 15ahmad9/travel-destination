@@ -1,0 +1,14 @@
+img {
+    width: 350px;
+    height: 350px;
+}
+
+    .tours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .tour {
+    margin-left: l0px;
+    }

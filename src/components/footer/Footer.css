@@ -1,0 +1,10 @@
+footer {
+    background-color: aquamarine;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+    footer p {
+    margin-bottom: 0;
+    height: 50px;
+    }
