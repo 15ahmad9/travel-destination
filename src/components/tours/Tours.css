@@ -1,4 +1,4 @@
-img {
+/* img {
     width: 350px;
     height: 350px;
 }
@@ -11,4 +11,23 @@ img {
 
     .tour {
     margin-left: l0px;
+    } */
+
+
+.flex {
+        margin: 50px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .services {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+    .services .service-header {
+        color: #3735a2;
+        font-size: 40px;
     }

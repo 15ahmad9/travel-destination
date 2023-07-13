@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-logo{
+    font-size: large;
+    padding: 7px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+#nav-logo:hover {
+    color: #5f6a8f;
+    font-weight: 500;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-right: 10px;
+}
+
+.nav-menu li a {
+    font-size: large;
+    padding: 7px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    color: #5f6a8f;
+    font-weight: bolder;
+    border-bottom: #919bbb solid;
+}

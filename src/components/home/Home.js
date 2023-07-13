@@ -3,13 +3,20 @@ import Header from "../header/Header";
 import Footer from '../footer/Footer';
 import Tours from "../tours/Tours";
 import "./Home.css";
+
 function Home(props) {
     return (
-        <div className="home">
+        // <div className="home">
+        //     <Header />
+        //     <Tours data={props.data} />
+        //     <Footer />
+        // </div>
+
+        <>
             <Header />
-            <Tours data={props.data} />
+            <Tours />
             <Footer />
-        </div>
+        </>
     );
 }
 
